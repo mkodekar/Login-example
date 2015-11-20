@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="40dip"
+        android:singleLine="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonSignIN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="signIn"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/buttonSignUP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:visibility="gone" />
+
+</LinearLayout>
